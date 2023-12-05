@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #ffffff;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+a {
+    color: #ffffff;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+    align-items: center;
+    background-color: green;
+}
+ul {
+    list-style: none;
+    padding: 1vh;
+}
+.sobreEducacaoFinanceira {
+    background-color: green;
+    text-align: center;
+    margin: 0 100px 0 100px;
+    padding: 0 1.5vh 1vh 1.5vh;
+}
+.boxMateria {
+    background-color: green;
+    text-align: center;
+    margin-left: 10px;
+}
+.materias {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+}
+.saibaMais {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h2 { 
+    background-color: green;
+    padding: 3vh    ;
+}
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 1vh;
+}
+.media {
+    display: flex;
+}
+@media (max-width: 760px) {
+    .media {
+        flex-direction: column;
+    }
+    .boxMateria {
+        margin-top: 20px;
+    }
+    iframe {
+        width: 400px;
+        height: auto;
+    }
+}
